@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+
+    <!-- ICONS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    
+    <form class="form">
+
+        <div class="form_header_container">
+            <p class="form_header_header">Reclassification</p>
+            <i class="fa-sharp fa-solid fa-xmark fa-xl form_close_btn"></i>
+        </div>
+
+        <div class="form_description_container">
+            <div class="form_description_inputContainer">
+                <p class="form_description_header">Reclassification description<span>*</span>:</p>
+                <input type="text" placeholder="Cash Reclass" class="form_description_input">
+            </div>
+            <p class="form_description_code">Code: RCLS001</p>
+        </div>
+
+        <div class="form_amount_container">
+            <p class="form_amount_header">Source lines and amounts(enter debits as positive and credits as negativ)</p>
+            <div class="form_amount_Datacontainer">
+                <select name="" id="" class="form_amount_dropdown">
+                    <option value="">Data</option>
+                    <option value="">Data</option>
+                    <option value="">Data</option>
+                </select>
+                <input type="number" class="form_amount_input">
+                <i class="fa-sharp fa-solid fa-xmark"></i>
+            </div>
+            <div class="form_amount_Btncontainer">
+                <button class="form_amount_btn">Add New</button>
+                <div>
+                    <span>Total:</span>
+                    <input type="number" placeholder="7000" readonly>
+                </div>
+            </div>
+        </div>
+
+        <div class="form_amount_container">
+            <p class="form_amount_header">Target lines and amounts(enter debits as positive and credits as negativ)</p>
+            <div class="form_amount_Datacontainer">
+                <select name="" id="" class="form_amount_dropdown">
+                    <option value="">Data</option>
+                    <option value="">Data</option>
+                    <option value="">Data</option>
+                </select>
+                <input type="number" class="form_amount_input">
+                <i class="fa-sharp fa-solid fa-xmark"></i>
+            </div>
+            <div class="form_amount_Btncontainer">
+                <button class="form_amount_btn">Add New</button>
+                <div>
+                    <span>Total:</span>
+                    <input type="number" placeholder="7000" readonly>
+                </div>
+            </div>
+        </div>
+
+        <div class="form_save_container">
+            <span class="form_save_txt">Save for Rollforward</span>
+            <input type="checkbox">
+        </div>
+
+        <div class="form_submit_container">
+            <button class="form_amount_btn">Cancel</button>
+            <input type="submit" value="Apply" class="form_submit_submitBtn">
+        </div>
+
+    </form>
+
+</body>
+</html>

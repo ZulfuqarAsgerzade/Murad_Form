@@ -1,0 +1,183 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+p {
+    margin: 0;
+}
+
+/* ------------------------------------------------------ */
+
+.form {
+    width: 50%;
+
+    margin: 0 auto;
+    padding: 20px;
+
+    border: 1px solid rgba(106,105,107,255);
+    border-radius: 10px;
+}
+
+.form_header_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form_header_header {
+    font-size: 20px;
+}
+
+.form_close_btn {
+    color: rgba(97,107,132,255);
+    cursor: pointer;
+}
+
+.form_close_btn:hover {
+    color: red;
+}
+
+/* ------------------------------------------------------ */
+
+.form_description_container {
+    margin: 30px 0;
+}
+
+.form_description_inputContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form_description_header span {
+    color: red;
+    font-weight: 500;
+}
+
+.form_description_input {
+    width: 70%;
+
+    padding: 5px;
+
+    display: block;
+}
+
+.form_description_code {
+    margin-top: 10px;
+
+    font-size: 15px;
+    text-align: right;
+}
+
+/* ------------------------------------------------------ */
+
+.form_amount_container {
+    margin-top: 40px;
+}
+
+.form_amount_header {
+    font-weight: 500;
+}
+
+.form_amount_Datacontainer {
+    margin: 5px 0;
+    padding: 10px;
+
+    border: 1px solid gray;
+
+    display: flex;
+    align-items: center;
+
+    gap: 10px;
+}
+
+.form_amount_dropdown {
+    width: calc(100% - 168px);
+
+    padding: 5px;
+}
+
+.form_amount_input {
+    width: 138px;
+
+    text-align: right;
+
+    padding: 5px 0;
+}
+
+.form_amount_Btncontainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form_amount_btn {
+    padding: 10px 30px;
+
+    color: rgba(130,186,209,255);
+    border: 2px solid rgba(130,186,209,255);
+    cursor: pointer;
+
+    font-weight: 500;
+}
+
+.form_amount_Btncontainer div {
+    margin-right: 30px;
+}
+
+.form_amount_Btncontainer span {
+    margin-right: 5px;
+
+    font-weight: 500;
+}
+
+.form_amount_Btncontainer input {
+    padding: 5px 0px;
+
+    background-color: lightgray;
+    border: 1px solid gray;
+    outline: none;
+}
+
+.form_amount_Btncontainer input::placeholder {
+    color: black;
+    text-align: right;
+}
+/* ------------------------------------------------------ */
+
+.form_save_container {
+    margin-top: 50px;
+
+    display: flex;
+    justify-content: right;
+}
+
+.form_save_txt {
+    margin-right: 10px;
+}
+
+/* ------------------------------------------------------ */
+
+.form_submit_container {
+    margin-top: 30px;
+
+    display: flex;
+    justify-content: right;
+}
+
+.form_submit_submitBtn {
+    margin-left: 10px;
+    padding: 10px 35px;
+
+    color: white;
+    border: 1px solid rgba(3,133,191,255);
+    background-color: rgba(3,133,191,255);
+
+    outline: none;
+
+    cursor: pointer;
+}
+
+/* ------------------------------------------------------ */
